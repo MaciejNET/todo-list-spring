@@ -1,0 +1,16 @@
+###
+POST http://localhost:8080/task
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "This is my first todo"
+}
+
+###
+PUT http://localhost:8080/task
+Content-Type: application/json
+
+{
+  "id": 1
+}

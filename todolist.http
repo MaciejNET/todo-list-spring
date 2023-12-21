@@ -1,0 +1,16 @@
+###
+GET http://localhost:8080/todo
+
+###
+GET http://localhost:8080/todo/1
+
+###
+POST http://localhost:8080/todo
+Content-Type: application/json
+
+{
+  "name": "New Todo"
+}
+
+###
+DELETE http://localhost:8080/todo/1
