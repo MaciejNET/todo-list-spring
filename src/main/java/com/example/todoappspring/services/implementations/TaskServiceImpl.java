@@ -15,6 +15,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+// TaskServiceImpl is the implementation of the TaskService interface.
+// It provides the business logic for operations related to tasks.
 @Service
 public class TaskServiceImpl implements TaskService {
     private final ToDoListRepository toDoListRepository;

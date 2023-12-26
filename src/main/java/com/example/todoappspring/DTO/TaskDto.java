@@ -2,6 +2,12 @@ package com.example.todoappspring.DTO;
 
 import java.io.Serializable;
 
+/**
+ * The TaskDto class is a Data Transfer Object (DTO) for the Task entity.
+ * A DTO is an object that carries data between processes. In the context of a web application like this one, DTOs are used to structure the data that's sent in HTTP responses.
+ * This TaskDto class has fields for id, name, and isDone, which correspond to the properties of a Task entity. It also has getters and setters for these fields.
+ * The TaskDto class implements Serializable, which means that its instances can be converted to a byte stream and back, which is useful when you need to send objects of this class in HTTP responses.
+ */
 public class TaskDto implements Serializable {
     private Long id;
     private String name;

@@ -5,6 +5,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * The ToDoListDto class is a Data Transfer Object (DTO) for the ToDoList entity.
+ * A DTO is an object that carries data between processes. In the context of a web application like this one, DTOs are used to structure the data that's sent in HTTP responses.
+ * This ToDoListDto class has fields for id, name, tasks, and tasksDone, which correspond to the properties of a ToDoList entity. It also has getters and setters for these fields.
+ * The tasks field is a list of TaskDto objects, representing the tasks in the to-do list. The tasksDone field is a count of the tasks in the to-do list that are marked as done.
+ * The ToDoListDto class implements Serializable, which means that its instances can be converted to a byte stream and back, which is useful when you need to send objects of this class in HTTP responses.
+ */
 public class ToDoListDto implements Serializable {
     private Long id;
     private String name;

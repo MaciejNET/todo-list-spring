@@ -9,8 +9,8 @@ POST http://localhost:8080/todo
 Content-Type: application/json
 
 {
-  "name": "New Todo"
+  "name": "New Todo1"
 }
 
 ###
-DELETE http://localhost:8080/todo/1
+DELETE http://localhost:8080/todo/4

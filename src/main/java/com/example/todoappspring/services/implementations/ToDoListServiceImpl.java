@@ -16,6 +16,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+// ToDoListServiceImpl is the implementation of the ToDoListService interface.
+// It provides the business logic for operations related to to-do lists.
 @Service
 public class ToDoListServiceImpl implements ToDoListService {
     private final ToDoListRepository toDoListRepository;
